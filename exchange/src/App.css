@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.setup {
+  display: flex;
+  justify-content: center;
+
+  padding: 24px;
+}
+
+.main {
+  width: 100%;
+  max-width: 1024px;
+}

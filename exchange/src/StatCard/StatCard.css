@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 24px;
+  border-radius: 24px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.statGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 16px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  color: rgba(255, 255, 255, 1);
+
+  text-transform: uppercase;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.value {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: none;
+}
