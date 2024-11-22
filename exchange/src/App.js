@@ -1,6 +1,7 @@
 import './App.css';
 import StatCard from './StatCard/StatCard';
 import { items } from './items';
+import video1 from './test.mp4'
 
 function App() {
   console.log(items[1].name)
@@ -13,6 +14,7 @@ function App() {
       motivation={items[1].stats.motivation}
       probability={items[1].stats.probability}
       />
+       <video src={video1} width="100%" height="100%" autoPlay muted loop />
       </div>
     </div>
   );
