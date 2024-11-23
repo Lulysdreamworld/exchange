@@ -5,20 +5,47 @@
 
 .statCard {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 
+  gap: var(--spacing-medium); 
   padding: var(--spacing-large);
   border-radius: var(--border-radius-large);
 
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.statCard-hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  gap: 0; 
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius-large);
+
+  background-color: rgba(0, 0, 0, 1);
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  width: 100%;
 }
 
 .statGroup {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 16px;
+  gap: var(--spacing-medium);
 }
 
 .stat {
@@ -32,20 +59,55 @@
 }
 
 .label {
+  font-family: var(--font-family);
   font-size: var(--font-size-small);
   line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
   font-weight: var(--font-weight);
 }
 
 .value {
+  font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--lineheight);
   font-weight: var(--font-weight);
 }
 
 .title {
+  font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--lineheight);
   font-weight: var(--font-weight);
   text-transform: none;
+}
+
+.hide {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+
+  color: rgba(255, 255, 255, 0.5);
+
+  opacity: 0;
+  height: 0;
+  transition: all 800ms var(--ease-out-quart);
+  overflow: hidden;
+}
+
+.description {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+
+  color: rgba(255, 255, 255, 0.5);
+
+  opacity: 1;
+  max-height: fit-content;
+  height: 5rem;
+  transition: all 800ms var(--ease-out-quart);
+  overflow: hidden;
 }
