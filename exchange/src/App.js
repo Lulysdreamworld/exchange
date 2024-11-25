@@ -3,7 +3,6 @@ import './root.css';
 
 import StatCard from './StatCard/StatCard';
 import { items } from './items';
-import video1 from './test.mp4'
 
 
 function App() {
@@ -21,9 +20,9 @@ function App() {
   }
 
   return (
-    <div className="setup" style={{ backgroundColor: `${object.color}` }}>
+    <div className="setup" style={{ backgroundColor: `var(${object.color})` }}>
       <div className="main">
-        <video src={video1} width="100%" height="100%" autoPlay muted loop />
+        <video className="artwork" src={`${object.artwork}`} width="100%" height="100%" autoPlay muted loop />
         <StatCard
           name={object.name}
           value={object.stats.value}
