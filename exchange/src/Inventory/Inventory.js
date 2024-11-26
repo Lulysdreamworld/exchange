@@ -1,6 +1,7 @@
 import './Inventory.css';
 import { useState } from 'react';
 import { items } from '../items';
+import ItemFamily from '../ItemFamily/ItemFamily';
 
 function Inventory() {
 
@@ -19,6 +20,14 @@ function Inventory() {
           <p className="label">Inventory</p>
           </div>
           <p className="item-count">{items.length} {visibility ? "Items" : "" }</p>
+      </div>
+
+      <div className={visibility ? "list tapped" : "list" }>
+      <ItemFamily parent={"Cyber Worlding"}/>
+      <ItemFamily parent={"Collectible Malls"}/>
+      <ItemFamily parent={"Gather or Die"}/>
+      <ItemFamily parent={"Exclusive Hobby"}/>
+      <ItemFamily parent={"( )"}/>
       </div>
 
     </div>

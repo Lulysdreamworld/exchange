@@ -2,7 +2,7 @@ import './App.css';
 import './root.css';
 
 import StatCard from './StatCard/StatCard';
-import Invnetory from './Inventory/Inventory';
+import Inventory from './Inventory/Inventory';
 import { items } from './items';
 
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="setup" style={{ backgroundColor: `var(${object.color})` }}>
       <div className="main">
-        <Invnetory />
+        <Inventory />
         <StatCard
           name={object.name}
           weight={object.weight}
