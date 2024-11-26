@@ -13,7 +13,8 @@
   padding: var(--spacing-large);
   border-radius: var(--border-radius-large);
 
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
 
   transition: all 800ms var(--ease-out-quart);
 }
@@ -28,7 +29,8 @@
   padding: var(--spacing-large);
   border-radius: var(--border-radius-large);
 
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
 
   transition: all 800ms var(--ease-out-quart);
 }

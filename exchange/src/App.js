@@ -2,6 +2,7 @@ import './App.css';
 import './root.css';
 
 import StatCard from './StatCard/StatCard';
+import Invnetory from './Inventory/Inventory';
 import { items } from './items';
 
 
@@ -22,14 +23,15 @@ function App() {
   return (
     <div className="setup" style={{ backgroundColor: `var(${object.color})` }}>
       <div className="main">
-        <video className="artwork" src={`${object.artwork}`} width="100%" height="100%" autoPlay muted loop />
+        <Invnetory />
         <StatCard
           name={object.name}
-          value={object.stats.value}
+          weight={object.weight}
           motivation={object.stats.motivation}
           probability={object.stats.probability}
           description={object.description}
         />
+        <video className="artwork" src={`${object.artwork}`} width="100%" height="100%" autoPlay muted loop playsInline />
       </div>
     </div>
   );

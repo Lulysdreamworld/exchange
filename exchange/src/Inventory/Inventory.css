@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inventory {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  gap: var(--spacing-large); 
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-large);
+
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
+
+  min-width: fit-content;
+  max-width: fit-content;
+  max-height: fit-content;
+  max-height: fit-content;
+  width: 10%;
+  height: 10%;
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.inventory.tapped {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  gap: var(--spacing-large); 
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-large);
+
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
+
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.inventory .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: var(--spacing-large); 
+
+  color: rgba(255, 255, 255, 1);
+
+  width: 100%;
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.inventory .container.tapped {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: var(--spacing-large); 
+
+  color: rgba(255, 255, 255, 1);
+
+  width: 100%;
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.inventory .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.inventory .label {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+
+  text-transform: uppercase;
+}
+
+.inventory .item-count {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.inventory .indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: var(--border-radius-large);
+}

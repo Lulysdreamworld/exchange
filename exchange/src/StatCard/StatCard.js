@@ -1,16 +1,16 @@
 import './StatCard.css';
 import { useState } from 'react';
 
-function StatCard({ name, value, motivation, probability, description }) {
+function StatCard({ name, weight, motivation, probability, description }) {
 
   const [visibility, setVisibility] = useState(false);
-
+  
   function handleTap() {
     setVisibility(!visibility);
   }
 
   return (
-    <div className={visibility ? "statCard" : "statCard-hidden" } onClick={handleTap}>
+    <div className={visibility ? "statCard" : "statCard-hidden"} onClick={handleTap}>
 
       <div className="container">
 
@@ -21,10 +21,6 @@ function StatCard({ name, value, motivation, probability, description }) {
 
         <div className="statGroup">
           <div className="stat">
-            <p className="label">Val</p>
-            <p className="value">{value}</p>
-          </div>
-          <div className="stat">
             <p className="label">Mot</p>
             <p className="value">{motivation}</p>
           </div>
@@ -32,11 +28,15 @@ function StatCard({ name, value, motivation, probability, description }) {
             <p className="label">Prob</p>
             <p className="value">{probability}</p>
           </div>
+          <div className="stat">
+            <p className="label">Odds</p>
+            <p className="value">{weight}</p>
+          </div>
         </div>
 
       </div>
-      
-      <p className={visibility ? "description" : "hide" }>{description}</p>
+
+      <p className={visibility ? "description" : "hide"}>{description}</p>
 
     </div>
   );

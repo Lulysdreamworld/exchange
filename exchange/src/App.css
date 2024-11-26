@@ -10,8 +10,9 @@
 
   padding: 24px;
 
-  height: 100vh;
+  height: 100svh;
   overflow: hidden;
+  z-index: 0;
 }
 
 .main {
@@ -20,8 +21,18 @@
   max-width: 1024px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-large);
+  z-index: 0;
 }
 
 .artwork {
-  mix-blend-mode: screen;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -9999;
 }
