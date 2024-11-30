@@ -142,6 +142,7 @@ setInterval(updateThemeColor, 100);
 
         <body style={`background-color: var(${object.color})`} ></body>
       </Helmet>
+      
       <div className="main">
         <Inventory passkit={object.passkit} />
         <StatCard

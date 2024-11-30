@@ -15,6 +15,7 @@
 
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
 
   transition: all 800ms var(--ease-out-quart);
 }
@@ -38,6 +39,7 @@
 
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
 
   transition: all 800ms var(--ease-out-quart);
 }
