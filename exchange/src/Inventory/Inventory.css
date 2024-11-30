@@ -16,6 +16,10 @@
   max-height: 100%;
 }
 
+.inventoryWrapper.tapped {
+  gap: 0;
+}
+
 .inventory {
   display: flex;
   flex-direction: column;
@@ -33,8 +37,16 @@
   height: fit-content;
   min-height: 0;
   max-height: calc-size(auto, size);
+  transform: scale(1);
 
   transition: all 800ms var(--ease-out-quart);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .inventory:hover {
+    width: 100%;
+    transition: all 1000ms var(--ease-out-quart);
+  }
 }
 
 .inventory.tapped {
@@ -141,6 +153,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  border-radius: var(--border-radius-medium);
+
   
   overflow: scroll;
   -ms-overflow-style: none;  /* IE and Edge */

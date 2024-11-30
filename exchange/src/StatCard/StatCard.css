@@ -19,6 +19,13 @@
   transition: all 800ms var(--ease-out-quart);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .statCard-hidden:hover {
+    transform: scale(1.05);
+    transition: all 800ms var(--ease-out-quart);
+  }
+}
+
 .statCard-hidden {
   display: flex;
   flex-direction: column;

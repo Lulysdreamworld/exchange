@@ -27,18 +27,15 @@
   transition: all 800ms var(--ease-out-quart);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .wallet:hover {
+    transform: scale(1.1);
+    transition: all 800ms var(--ease-out-quart);
+  }
+}
+
 .wallet.tapped {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-
-  gap: var(--spacing-large); 
   padding: var(--spacing-medium) 0;
-  border-radius: var(--border-radius-large);
-
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(50px);
 
   width: 0;
   height: fit-content;
@@ -46,7 +43,7 @@
   max-height: 100%;
 
   overflow: hidden;
-  opacity: 0.5;
+  opacity: 0;
 
   transition: all 800ms var(--ease-out-quart);
 }
