@@ -6,7 +6,7 @@ function StatCard({ name, weight, motivation, probability, description }) {
   const [visibility, setVisibility] = useState(false);
   
   function handleTap() {
-    setVisibility(!visibility);
+    setVisibility(!visibility);    
   }
 
   return (

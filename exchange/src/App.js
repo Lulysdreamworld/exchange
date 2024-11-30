@@ -1,6 +1,8 @@
 import './App.css';
 import './root.css';
 
+import { useState } from 'react';
+
 import StatCard from './StatCard/StatCard';
 import Inventory from './Inventory/Inventory';
 import { items } from './items';
@@ -23,7 +25,7 @@ function App() {
   return (
     <div className="setup" style={{ backgroundColor: `var(${object.color})` }}>
       <div className="main">
-        <Inventory />
+        <Inventory passkit={object.passkit}/>
         <StatCard
           name={object.name}
           weight={object.weight}

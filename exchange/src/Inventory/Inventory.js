@@ -2,8 +2,9 @@ import './Inventory.css';
 import { useState } from 'react';
 import { items } from '../items';
 import ItemFamily from '../ItemFamily/ItemFamily';
+import Wallet from '../Wallet/Wallet'
 
-function Inventory() {
+function Inventory({ passkit }) {
 
   const [visibility, setVisibility] = useState(false);
 
@@ -12,6 +13,8 @@ function Inventory() {
   }
 
   return (
+    <div className="inventoryWrapper">
+
     <div onClick={handleTap} className={visibility ? "inventory tapped" : "inventory" }>
 
       <div className={visibility ? "container tapped" : "container" }>
@@ -30,6 +33,9 @@ function Inventory() {
       <ItemFamily parent={"( )"}/>
       </div>
 
+    </div>
+
+    <Wallet visibility={visibility} passkit={passkit}/>
     </div>
   );
 }

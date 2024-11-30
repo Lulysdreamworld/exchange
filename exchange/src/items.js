@@ -12,7 +12,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./download.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-market",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 8,
@@ -117,7 +117,7 @@ export const items = [
     thumbnail: "./img/CyberWorlding.png",
     artwork: "./mov/CyberWorlding.mp4",
     color: "--color-future-digitization",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 9,
@@ -132,7 +132,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-none",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 10,
@@ -147,7 +147,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-luxury",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 11,
@@ -162,7 +162,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./test.mp4",
     color: "--color-future-survival",
-    passkit: "link to file",
+    passkit: "./passes/testwallet.pkpass",
   },
   {
     id: 12,
@@ -177,6 +177,6 @@ export const items = [
     thumbnail: "./img/HAL10000.png",
     artwork: "./mov/HAL10000.mp4",
     color: "--color-future-digitization",
-    passkit: "link to file",
+    passkit: "./passes/hal10000.pkpass",
   },
 ];
