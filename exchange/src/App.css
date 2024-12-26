@@ -29,10 +29,11 @@
 
 .artwork {
   width: 100vw;
+  max-width: 1024px;
   height: 100vh;
   position: fixed;
-  left: 0;
+  left: auto;
   top: 0;
-  object-fit: cover;
-  z-index: -9999;
+  object-fit: fit;
+  z-index: 0;
 }

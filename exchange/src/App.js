@@ -144,6 +144,7 @@ setInterval(updateThemeColor, 100);
       </Helmet>
       
       <div className="main">
+        <video className="artwork" src={`${object.artwork}`} width="100%" height="100%" autoPlay muted loop playsInline />
         <Inventory passkit={object.passkit} />
         <StatCard
           name={object.name}
@@ -152,7 +153,6 @@ setInterval(updateThemeColor, 100);
           probability={object.stats.probability}
           description={object.description}
         />
-        <video className="artwork" src={`${object.artwork}`} width="100%" height="100%" autoPlay muted loop playsInline />
       </div>
     </div>
   );

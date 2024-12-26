@@ -35,9 +35,9 @@
   --color-text-link-visited: var(--color-text-link);
 
   --color-future-market: rgba(243, 222, 44, 1);
-  --color-future-digitization: rgba(21, 13, 247, 1);
+  --color-future-digitization: rgba(0, 33, 255, 1);
   --color-future-none: rgba(190, 183, 223, 1);
-  --color-future-luxury: rgba(253, 94, 15, 1);
+  --color-future-luxury: rgba(255, 69, 0, 1);
   --color-future-survival: rgba(69, 75, 27, 1);
   
   --color-button-default: var(--color-accent:);
