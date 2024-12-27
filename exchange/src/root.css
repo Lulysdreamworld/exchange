@@ -34,11 +34,11 @@
   --color-text-link-hover: #9d7ad4;
   --color-text-link-visited: var(--color-text-link);
 
-  --color-future-market: rgba(243, 222, 44, 1);
+  --color-future-market: rgba(255, 255, 0, 1);
   --color-future-digitization: rgba(0, 33, 255, 1);
-  --color-future-none: rgba(190, 183, 223, 1);
+  --color-future-none: rgba(75, 0, 130, 1);
   --color-future-luxury: rgba(255, 69, 0, 1);
-  --color-future-survival: rgba(69, 75, 27, 1);
+  --color-future-survival: rgba(102, 102, 0, 1);
   
   --color-button-default: var(--color-accent:);
   --color-button-border: var(--color-base);
