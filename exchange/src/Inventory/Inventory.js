@@ -15,7 +15,7 @@ function Inventory({ passkit }) {
   return (
     <div className={visibility ? "inventoryWrapper tapped" : "inventoryWrapper"}>
 
-    <div onClick={handleTap} className={visibility ? "inventory tapped" : "inventory" }>
+    <div onClick={handleTap} tabIndex="0" className={visibility ? "inventory tapped" : "inventory" }>
 
       <div className={visibility ? "container tapped" : "container" }>
           <div className='wrapper'>

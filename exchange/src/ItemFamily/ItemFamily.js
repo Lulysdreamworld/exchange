@@ -13,7 +13,7 @@ function ItemFamily({ parent }) {
           <div className="item" key={uniqueItem.key}>
             <div className="props">
               <img src={`${uniqueItem.thumbnail}`} className="thumbnail"></img>
-              <div>
+              <div >
                 <h2 className="title">{uniqueItem.name}</h2>
                 <div className="stats">
                   <p className="label">{uniqueItem.stats.motivation}</p>

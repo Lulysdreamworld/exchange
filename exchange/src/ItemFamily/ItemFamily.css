@@ -61,6 +61,16 @@
   text-transform: none;
 }
 
+.itemFamily .label {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: var(--lineheight-small);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
 p {
   color: white;
 }
