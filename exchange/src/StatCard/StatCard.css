@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.statCard {
+.statCard-visible {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -44,7 +44,7 @@
   transition: all 800ms var(--ease-out-quart);
 }
 
-.container {
+:is(.statCard-hidden, .statCard-visible) .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,14 +52,14 @@
   width: 100%;
 }
 
-.statGroup {
+:is(.statCard-hidden, .statCard-visible) .statGroup {
   display: flex;
   flex-direction: row;
   justify-content: end;
   gap: var(--spacing-medium);
 }
 
-.stat {
+:is(.statCard-hidden, .statCard-visible) .stat {
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -69,22 +69,23 @@
   text-transform: uppercase;
 }
 
-.label {
+:is(.statCard-hidden, .statCard-visible) .label {
   font-family: var(--font-family);
   font-size: var(--font-size-small);
   line-height: var(--lineheight-small);
   letter-spacing: var(--letter-spacing);
   font-weight: var(--font-weight);
+  opacity: 0.5;
 }
 
-.value {
+:is(.statCard-hidden, .statCard-visible) .value {
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--lineheight);
   font-weight: var(--font-weight);
 }
 
-.title {
+:is(.statCard-hidden, .statCard-visible) .title {
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--lineheight);
@@ -92,7 +93,7 @@
   text-transform: none;
 }
 
-.hide {
+:is(.statCard-hidden, .statCard-visible) .hide {
   font-family: var(--font-family);
   font-size: var(--font-size-small);
   line-height: var(--lineheight-small);
@@ -107,7 +108,7 @@
   overflow: hidden;
 }
 
-.description {
+:is(.statCard-hidden, .statCard-visible) .description {
   font-family: var(--font-family);
   font-size: var(--font-size-small);
   line-height: var(--lineheight-small);

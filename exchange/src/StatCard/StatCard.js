@@ -10,7 +10,7 @@ function StatCard({ name, weight, motivation, probability, description }) {
   }
 
   return (
-    <div className={visibility ? "statCard" : "statCard-hidden"} onClick={handleTap}>
+    <div className={visibility ? "statCard-visible" : "statCard-hidden"} onClick={handleTap}>
 
       <div className="container">
 
