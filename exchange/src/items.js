@@ -12,7 +12,7 @@ export const items = [
     thumbnail: "./logo192.png",
     artwork: "./mov/CollectibleMalls/CollectibleMalls.mp4",
     color: "--color-future-market",
-    passkit: "./passes/testwallet.pkpass",
+    passkit: "./passes/CollectibleMalls.pkpass",
   },
   {
     id: 1,
