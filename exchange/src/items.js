@@ -70,7 +70,7 @@ export const items = [
     },
     description: "“Created by algorithms to spark desire, this item’s value comes not from its substance but from the attention it commands. It rises with every new wave of hype, only to fade into obscurity when the buzz dies down.“",
     thumbnail: "./img/ArtificialHyperhype.png",
-    artwork: "./mov/CollectibleMalls/CollectibleMalls.mp4",
+    artwork: "./mov/CollectibleMalls/ArtificialHyperhype.mp4",
     color: "--color-future-market",
     passkit: "./passes/ArtificialHyperhype.pkpass",
   },
