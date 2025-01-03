@@ -2,7 +2,8 @@ import './Inventory.css';
 import { useState } from 'react';
 import { items } from '../items';
 import ItemFamily from '../ItemFamily/ItemFamily';
-import Wallet from '../Wallet/Wallet'
+import Wallet from '../Wallet/Wallet';
+import Overlay from '../FullScreenOverlay/FullScreenOverlay'
 
 function Inventory({ passkit }) {
 
@@ -19,7 +20,7 @@ function Inventory({ passkit }) {
 
       <div className={visibility ? "container tapped" : "container" }>
           <div className='wrapper'>
-          <div className="indicator"></div>
+          
           <p className="label">Inventory</p>
           </div>
           <p className="item-count">{items.length}</p>
@@ -35,7 +36,9 @@ function Inventory({ passkit }) {
 
     </div>
 
+
     <Wallet visibility={visibility} passkit={passkit}/>
+    <Overlay visibility={visibility}/>
     </div>
   );
 }
