@@ -21,7 +21,7 @@ function ItemFamily({ parent }) {
                 </div>
               </div>
             </div>
-            <p className="title">{uniqueItem.weight}</p>
+            <p className="odds">{uniqueItem.weight}</p>
           </div>
         ))}
       </div>

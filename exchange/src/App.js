@@ -140,7 +140,7 @@ setInterval(updateThemeColor, 100);
         <meta name="twitter:image" content={`${object.thumbnail}`} />
         <meta name="twitter:description" content={`${object.description}`} />
 
-        <body style={`background-color: var(${object.color})`} ></body>
+        <body style={`background-color: var(${object.color}); overflow: hidden;`} ></body>
       </Helmet>
       
       <div className="main">

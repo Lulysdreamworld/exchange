@@ -61,6 +61,15 @@
   text-transform: none;
 }
 
+.itemFamily .odds {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--lineheight);
+  font-weight: var(--font-weight);
+  text-transform: none;
+  padding-top: 0.3rem;
+}
+
 .itemFamily .label {
   font-family: var(--font-family);
   font-size: var(--font-size-small);
