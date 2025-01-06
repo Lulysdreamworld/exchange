@@ -29,8 +29,8 @@ function Inventory({ passkit }) {
       <div className={visibility ? "list tapped" : "list" }>
       <ItemFamily parent={"Cyber Worlding"}/>
       <ItemFamily parent={"Collectible Malls"}/>
-      <ItemFamily parent={"Gather or Die"}/>
       <ItemFamily parent={"Exclusive Hobby"}/>
+      <ItemFamily parent={"Gather or Die"}/>
       <ItemFamily parent={"( )"}/>
       </div>
 

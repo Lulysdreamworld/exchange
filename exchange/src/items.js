@@ -190,7 +190,7 @@ export const items = [
     },
     description: "“Once, this represented the endless pursuit of something unattainable—the search that never ceased. But now, in a world where everything is already within reach, the need to collect or own anything has vanished. There is no longer any void to fill, no treasure to seek. The act of collecting has become a distant memory, replaced by a reality where everything is provided.“",
     thumbnail: "./img/().png",
-    artwork: "./mov/()/().mp4",
+    artwork: "./mov/().mp4",
     color: "--color-future-none",
     passkit: "./passes/().pkpass",
   },

@@ -43,7 +43,7 @@ function Overlay({ visibility }) {
 
         <div className="wrapper">
           <div className="block">
-            <h1 className="title">Motivation</h1>
+            <h1 className="title">Motivation for Collecting</h1>
             <p className="body">Joseph Voros' <i>Future Cone</i> is a tool used in futures studies to visualize different types of possible futures. It represents various scenarios in a cone shape, with the present moment at the tip and a widening range of potential futures as time progresses. The cone is divided into layers, each representing different levels of possibility: from probable futures (based on current trends) to plausible futures (which could happen given certain conditions), and even preposterous or highly improbable futures. The model helps to understand the uncertainty and range of outcomes <i>over time</i>.</p>
             <p className="body">Each collectible item is marked with an abbreviated layer notation: <span className="highlight">probable (PROB), plausible (PLAUS), and preposterous (PREP) futures</span>. It helps explore various scenarios and assess the uncertainty of the event or object.</p>
           </div>
@@ -68,7 +68,7 @@ function Overlay({ visibility }) {
         <div className="wrapper">
           <div className="block">
             <img className="img" src="./img/voros.png"></img>
-            <h1 className="title">Future Cones</h1>
+            <h1 className="title">The Future Cones</h1>
             <p className="body">Joseph Voros' <i>Future Cone</i> is a tool used in futures studies to visualize different types of possible futures. It represents various scenarios in a cone shape, with the present moment at the tip and a widening range of potential futures as time progresses. The cone is divided into layers, each representing different levels of possibility: from probable futures (based on current trends) to plausible futures (which could happen given certain conditions), and even preposterous or highly improbable futures. The model helps to understand the uncertainty and range of outcomes <i>over time</i>.</p>
             <p className="body">Each collectible item is marked with an abbreviated layer notation: <span className="highlight">probable (PROB), plausible (PLAUS), and preposterous (PREP) futures</span>. It helps explore various scenarios and assess the uncertainty of the event or object.</p>
           </div>
