@@ -51,7 +51,7 @@ function Overlay({ visibility }) {
           </div>
 
           <div className="block">
-            <h3 className="heading">On Desktop</h3>
+            <h3 className="heading">On Cyberdeck</h3>
             <p className="body"><span className="highlight">1. Press One of the Four Buttons /</span> Roll the dice for an item.</p>
             <p className="body"><span className="highlight">2. Read the Description /</span> Learn about the details of the future of these items.</p>
             <p className="body"><span className="highlight">3. Repeat /</span> Continue pressing buttons and learn about the future of collecting.</p>
