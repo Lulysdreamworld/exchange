@@ -15,7 +15,7 @@ function Overlay({ visibility }) {
 
         <div className="container">
           <div className='wrapper'>
-            <p className="label">ｴ</p>
+            <p className="label">?</p>
           </div>
         </div>
 
@@ -43,7 +43,6 @@ function Overlay({ visibility }) {
 
           <div className="block">
             <h3 className="heading">On Mobile</h3>
-            <p className="body"><span className="highlight">0. Go to web app /</span> Go to https://lulysdreamworld.github.io.</p>
             <p className="body"><span className="highlight">1. Reload the Page /</span> Refresh the app and roll the dice.</p>
             <p className="body"><span className="highlight">2. Read the Description /</span> Review the details about the items and learn about their future.</p>
             <p className="body"><span className="highlight">3. Tap “Add to Wallet”/</span> Save the card to your wallet collection.</p>

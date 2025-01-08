@@ -21,7 +21,7 @@ function Inventory({ passkit }) {
       <div className={visibility ? "container tapped" : "container" }>
           <div className='wrapper'>
           
-          <p className="label">Inventory</p>
+          <p className="label">Index</p>
           </div>
           <p className="item-count">{items.length}</p>
       </div>

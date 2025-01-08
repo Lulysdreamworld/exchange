@@ -128,17 +128,17 @@ setInterval(updateThemeColor, 100);
 
         <meta
           name="description"
-          content={object.description}
+          content="Dive into a unique web app that explores the evolving nature of collecting. Each card reveals a glimpse into the potential futures of this timeless act—how it may grow, transform, or even decline. Will collecting remain a pursuit of beauty and curiosity, or will it shift toward survival and utility? Collect cards by exploring scenarios, trade with others to expand your collection, and reflect on the possible paths collecting may take in the future. Start building your collection now and shape your vision of tomorrow!"
         />
         <meta name="theme-color" content="black"></meta>
 
-        <meta property="og:title" content={`${object.name} – ${object.parent}`}/>
+        <meta property="og:title" content="Back to the future (of Collecting)" />
         <meta property="og:image" content={`${object.thumbnail}`} />
-        <meta property="og:description" content={`${object.description}`} />
+        <meta property="og:description" content="Dive into a unique web app that explores the evolving nature of collecting. Each card reveals a glimpse into the potential futures of this timeless act—how it may grow, transform, or even decline. Will collecting remain a pursuit of beauty and curiosity, or will it shift toward survival and utility? Collect cards by exploring scenarios, trade with others to expand your collection, and reflect on the possible paths collecting may take in the future. Start building your collection now and shape your vision of tomorrow!" />
         <meta name="twitter:card" content={`${object.thumbnail}`} />
-        <meta name="twitter:title" content={`${object.name} – ${object.parent}`} />
+        <meta name="twitter:title" content="Back to the future (of Collecting)" />
         <meta name="twitter:image" content={`${object.thumbnail}`} />
-        <meta name="twitter:description" content={`${object.description}`} />
+        <meta name="twitter:description" content="Dive into a unique web app that explores the evolving nature of collecting. Each card reveals a glimpse into the potential futures of this timeless act—how it may grow, transform, or even decline. Will collecting remain a pursuit of beauty and curiosity, or will it shift toward survival and utility? Collect cards by exploring scenarios, trade with others to expand your collection, and reflect on the possible paths collecting may take in the future. Start building your collection now and shape your vision of tomorrow!" />
 
         <body style={`background-color: var(${object.color}); overflow: hidden;`} ></body>
       </Helmet>
