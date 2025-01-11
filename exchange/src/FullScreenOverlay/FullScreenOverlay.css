@@ -220,3 +220,33 @@
   width: 100%;
   max-width: 600px;
 }
+
+.content .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: var(--spacing-medium);
+}
+
+.content .icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-medium);
+  order: reverse;
+}
+
+.content .icon {
+  fill: rgba(255, 255, 255, 0.5);
+  height: 1.75rem;
+  width: auto;
+
+  transition: all 800ms var(--ease-out-quart);
+}
+
+.content .icon:hover {
+  fill: rgba(255, 255, 255, 1);
+
+  transition: all 800ms var(--ease-out-quart);
+}
