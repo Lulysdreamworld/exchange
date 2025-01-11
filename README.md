@@ -1,6 +1,5 @@
 # Back to the Future (of Collecting)
 
-## Overview
 **Back to the Future (of Collecting)** is a React-based web application that serves as a platform for exploring the future of collecting practices. The app showcases an innovative approach to digital collecting, where users can discover and save unique items to their digital wallets as wallet passes. It fosters creativity and interaction by encouraging users to share their wallet passes and attempt to collect all available passes.
 
 ## Bill of Materials (BoM)
