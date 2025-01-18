@@ -5,7 +5,7 @@ import ItemFamily from '../ItemFamily/ItemFamily';
 import Wallet from '../Wallet/Wallet';
 import Overlay from '../FullScreenOverlay/FullScreenOverlay'
 
-function Inventory({ passkit }) {
+function Inventory({ passkit, os }) {
 
   const [visibility, setVisibility] = useState(false);
 

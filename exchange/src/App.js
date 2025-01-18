@@ -2,7 +2,7 @@ import './App.css';
 import './root.css';
 
 import { useState } from 'react';
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
 
 import StatCard from './StatCard/StatCard';
 import Inventory from './Inventory/Inventory';
@@ -22,28 +22,6 @@ function App() {
     let weighted = weight(arr);
     return weighted[Math.floor(Math.random() * weighted.length)]
   }
-
-  function getMobileOperatingSystem() {
-    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-    // Windows Phone must come first because its UA also contains "Android"
-    if (/windows phone/i.test(userAgent)) {
-      return "Windows Phone";
-    }
-
-    if (/android/i.test(userAgent)) {
-      return "Android";
-    }
-
-    // iOS detection from: http://stackoverflow.com/a/9039885/177710
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      return "iOS";
-    }
-
-    return "unknown";
-  }
-
-  const operatingSystem = getMobileOperatingSystem();
 
   const rgbaToHex = (colorStr: string, forceRemoveAlpha: boolean = false) => {
     // Check if the input string contains '/'
