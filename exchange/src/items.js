@@ -115,7 +115,7 @@ export const items = [
     },
     description: "“In a world where collecting has moved into the digital realm, collectors now explore virtual spaces where algorithms make the hunt for items effortless. With the help of emerging technologies, it's possible to experience emotions, scents, and other sensations once reserved for the physical world, making the act of collecting far more immersive.“",
     thumbnail: "./img/CyberWorlding.png",
-    artwork: "./mov/CyberWorlding.mp4",
+    artwork: "./mov/CyberWorlding.MP4",
     color: "--color-future-digitization",
     passkit: "./passes/CyberWorlding.pkpass",
   },
